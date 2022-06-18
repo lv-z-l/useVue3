@@ -4,15 +4,15 @@
 
 the basic development scaffolding using Vite Vue3 TS
 
-❤️： Vite
-❤️： Vue3
-❤️： Ts Tsx
-❤️： VueRouter@4
-❤️： Piana
-❤️： naive-ui
-❤️： @vicons/ionicons5
-❤️： eslint
-❤️： git Submit a log specification
+- ❤️： Vite
+- ❤️： Vue3
+- ❤️： Ts Tsx
+- ❤️： VueRouter@4
+- ❤️： Piana
+- ❤️： naive-ui
+- ❤️： @vicons/ionicons5
+- ❤️： eslint
+- ❤️： git Submit a log specification
 
 ## installation
 
