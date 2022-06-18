@@ -59,6 +59,8 @@ module.exports = {
     "dot-notation": "warn",
     // 要求使用 === 和 !==
     eqeqeq: "warn",
+    // 除了根组件（App.vue）外，自定义组件名称应该由多单词组成
+    "vue/multi-word-component-names":"off",
     // 禁止 if 语句中 return 语句之后有 else 块
     "no-else-return": "warn",
     // 禁止出现空函数
@@ -90,7 +92,7 @@ module.exports = {
     // 强制在代码块中使用一致的大括号风格
     "brace-style": "warn",
     // 强制使用骆驼拼写法命名约定
-    camelcase: "warn",
+    camelcase: "off",
     // 强制使用一致的缩进
     indent: "off",
     // 强制在 JSX 属性中一致地使用双引号或单引号
@@ -110,7 +112,7 @@ module.exports = {
     // 强制每一行中所允许的最大语句数量
     "max-statements-per-line": ["warn", { max: 1 }],
     // 要求方法链中每个调用都有一个换行符
-    "newline-per-chained-call": ["warn", { ignoreChainWithDepth: 3 }],
+    "newline-per-chained-call": "off",
     // 禁止 if 作为唯一的语句出现在 else 语句中
     "no-lonely-if": "warn",
     // 禁止空格和 tab 的混合缩进
