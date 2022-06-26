@@ -5,7 +5,7 @@ import { Router } from 'vue-router'
 const { log } = console
 const initRouterFilter = (router: Router) => {
   router.beforeEach((to, from, next) => {
-    const mainStore = useMainStore()
+    // const mainStore = useMainStore()
     log('前置守卫被调用')
     next()
   })
